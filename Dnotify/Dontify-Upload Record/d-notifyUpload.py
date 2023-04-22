@@ -35,7 +35,7 @@ layout = [
 
 ]
 
-window = sg.Window('NAS-WATANIA Delivery MAP Set', layout)
+window = sg.Window('Dnoitify MAP Set', layout)
 
 while True:
     event, values = window.read()

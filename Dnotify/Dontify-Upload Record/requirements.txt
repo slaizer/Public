@@ -1,0 +1,5 @@
+firebase_admin
+pysimplegui
+
+pip install firebase_admin
+pip install pysimplegui

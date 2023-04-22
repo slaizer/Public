@@ -1,0 +1,7 @@
+required library to run this Script
+
+pip install colorama 
+pip install paramiko
+pip install subprocess
+pip install sockets
+pip install os

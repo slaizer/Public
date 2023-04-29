@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #3A4B6B;
+            animation-name: changeColor;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+
+        .music-file {
+            display: flex;
+            align-items: center;
+        }
+        button {
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            animation-name: colorChange;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes changeColor {
+            0% { background-color: #3A4B6B; }
+            50% { background-color: #A8ADB7; }
+            70% { background-color: #BFC1C4; }
+            100% { background-color:#3A4B6B; }
+        }
+
+        @keyframes colorChange {
+            0% { color: #E9EBEE; }
+            50% { color: #6A6B70; }
+            70% { color: #3A4B6B; }
+            100% { color: #6A6B70; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Music Player</h1>
+
+    <h2>Upload a new music file</h2>
+    <form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="audio/*">
+        <button type="submit">Upload</button>
+    </form>
+
+    <h2>Available music files</h2>
+    <ul>
+        {% for file in music_files %}
+            <li class="music-file">
+                {{ file }}
+                <button onclick="playMusic('{{ file }}')">Play</button>
+                <button onclick="stopMusic()">Stop</button>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h2>Volume Control</h2>
+    <input type="range" id="volumeSlider" min="0" max="100" step="1">
+    <button id="setVolume">Set Volume</button>
+
+    <script>
+        function playMusic(trackName) {
+            fetch(`/play?track=${encodeURIComponent(trackName)}`);
+        }
+
+        function stopMusic() {
+            fetch('/stop');
+        }
+
+        const volumeSlider = document.getElementById('volumeSlider');
+        const setVolumeButton = document.getElementById('setVolume');
+
+        function setNewVolume(volume) {
+            fetch('/volume', {
+                method: 'POST',
+                body: new URLSearchParams({ volume }),

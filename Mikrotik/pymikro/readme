@@ -1,0 +1,27 @@
+
+  .______   ____    ____ .___  ___.  __   __  ___ .______        ______
+   |   _  \  \   \  /   / |   \/   | |  | |  |/  / |   _  \      /  __  \
+   |  |_)  |  \   \/   /  |  \  /  | |  | |  '  /  |  |_)  |    |  |  |  |
+   |   ___/    \_    _/   |  |\/|  | |  | |    <   |      /     |  |  |  |
+   |  |          |  |     |  |  |  | |  | |  .  \  |  |\  \----.|  `--'  |
+   | _|          |__|     |__|  |__| |__| |__|\__\ | _| `._____| \______/
+
+
+
+Welcome to Taha Exe Python Script!
+please select the path you need to access on it
+Select 1 for Mikrotik Automation and tools
+select 2 for Windows Local tools
+Enter your tool number: 1
+welcome to Mikrotik Automation toolbox
+for exit select q
+★select 1 for Block Scan script that increase the router security
+★select 2 for BruteForce Detection and Firewall Policy For Protection
+★select 3 for Disable non used services in Mikrotik Routers
+★select 4 for icmp filter on Mikrotik router to increase the Security
+★select 5 for Apply Drop DNS Filter
+★ select q for exit
+Enter your tool number:
+
+
+

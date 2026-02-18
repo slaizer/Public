@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>🕵️ Taha Exe Nmap Wrapper</h1>
+  <h1>🕵️ Nmap Wrapper</h1>
   
   <p>
     <b>A Python-based CLI for advanced network reconnaissance.</b><br>
@@ -66,23 +66,14 @@ sudo apt update && sudo apt install nmap -y
 sudo pacman -S nmap
 ```
 # macOS (Homebrew)
+```bash
 brew install nmap
-
-
-
-
-
-
-. Clone the Repository
-
-Bash
-
-```
-git clone [https://github.com/yourusername/taha-nmap-wrapper.git](https://github.com/yourusername/taha-nmap-wrapper.git)
-cd taha-nmap-wrapper
 ```
 
----
+
+
+
+
 
 ## 💻 How to Use
 
@@ -90,9 +81,9 @@ Since Nmap requires raw socket access for advanced scans (like SYN or OS detecti
 
 1. **Run the script:**
     
-    Bash
     
-    ```
+    
+    ```bash
     sudo python3 taha_nmap.py
     ```
     

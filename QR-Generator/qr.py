@@ -7,7 +7,7 @@ layout = [
     [sg.Button("Generate QR code"), sg.Button("Open QRCODE")],
 ]
 
-window = sg.Window("NAS-WATANIA QR ", layout)
+window = sg.Window("EX  QR ", layout)
 
 while True:
     event, values = window.read()

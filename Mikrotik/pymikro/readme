@@ -1,27 +1,32 @@
+**Welcome to Taha Exe Python Script!**
+This tool is your all-in-one automation solution for hardening and managing **MikroTik RouterOS** devices. It provides a simple command-line interface to apply essential security policies and optimize your router in seconds.
 
-  .______   ____    ____ .___  ___.  __   __  ___ .______        ______
-   |   _  \  \   \  /   / |   \/   | |  | |  |/  / |   _  \      /  __  \
-   |  |_)  |  \   \/   /  |  \  /  | |  | |  '  /  |  |_)  |    |  |  |  |
-   |   ___/    \_    _/   |  |\/|  | |  | |    <   |      /     |  |  |  |
-   |  |          |  |     |  |  |  | |  | |  .  \  |  |\  \----.|  `--'  |
-   | _|          |__|     |__|  |__| |__| |__|\__\ | _| `._____| \______/
+---
 
+## 🚀 Features & Tools
 
+Select **Option 1** in the main menu to access the **Mikrotik Automation Toolbox**:
 
-Welcome to Taha Exe Python Script!
-please select the path you need to access on it
-Select 1 for Mikrotik Automation and tools
-select 2 for Windows Local tools
-Enter your tool number: 1
-welcome to Mikrotik Automation toolbox
-for exit select q
-★select 1 for Block Scan script that increase the router security
-★select 2 for BruteForce Detection and Firewall Policy For Protection
-★select 3 for Disable non used services in Mikrotik Routers
-★select 4 for icmp filter on Mikrotik router to increase the Security
-★select 5 for Apply Drop DNS Filter
-★ select q for exit
-Enter your tool number:
+### 1️⃣ 🚫 Block Scan Script
+> **Increase Router Security:** Automatically detects and blocks IPs that are scanning your router's ports, keeping you invisible to attackers.
 
+### 2️⃣ 🧱 BruteForce Detection & Firewall
+> **Active Protection:** Installs firewall policies to detect and drop brute-force attacks (SSH, FTP, Telnet) before they breach your system.
 
+### 3️⃣ 🧹 Disable Unused Services
+> **Surface Reduction:** Instantly disables insecure or unnecessary services (like `bandwidth-test`, `socks`, etc.) to minimize vulnerabilities.
 
+### 4️⃣ 🛡️ ICMP Filter
+> **Ping Security:** Configures smart ICMP rules to prevent ping floods while allowing necessary diagnostic traffic.
+
+### 5️⃣ 🛑 Drop DNS Filter
+> **Anti-Amplification:** Blocks unauthorized DNS requests to prevent your router from being used in DNS amplification DDoS attacks.
+
+---
+
+## 💻 How to Use
+
+1. **Run the Script:**
+   Launch the tool using Python:
+   ```bash
+   python taha_exe.py

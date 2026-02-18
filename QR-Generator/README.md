@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>📍 NAS-WATANIA QR Generator</h1>
+  <h1>📍 EX QR Generator</h1>
   
   <p>
     <b>A simple desktop utility to convert Google Maps links into QR Codes.</b><br>

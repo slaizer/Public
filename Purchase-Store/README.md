@@ -44,13 +44,16 @@ Ensure you have Python installed. You will also need to install the GUI library:
 
 ```bash
 pip install PySimpleGUI
+```
 
 
 🚀 How to Use
 Run the Application:
 
-Bash
+```bash
 python your_script_name.py
+```
+
 Add an Item: Fill in the fields (Name, Quantity, Price, Project) and click Submit.
 
 View Data: Click Show Purchases to see the table update with your data.

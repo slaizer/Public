@@ -60,10 +60,11 @@ This script relies on the Nmap binary. Install it via your package manager:
 ```bash
 # Debian / Ubuntu / Kali
 sudo apt update && sudo apt install nmap -y
-
+```
 # Arch Linux
+```bash
 sudo pacman -S nmap
-
+```
 # macOS (Homebrew)
 brew install nmap
 

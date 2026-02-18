@@ -42,7 +42,7 @@ Have you lost your Windows installation key? This tool scans the Windows Registr
 * **Operating System:** Windows (Required to access the `winreg` library).
 * **Python:** Python 3.x installed.
 
-### 2. Install Dependencies
+### 2.🖥️ Install Dependencies
 You need `PySimpleGUI` for the interface.
 
 ```bash

@@ -53,21 +53,22 @@ How to Use
 Run the script:
 
 Bash
-python key_extractor.py
+python windowslicense.py
+```
 Retrieve Key: Click the "Retrieve License Key" button.
 
 View Result: The key will appear in the text box below.
 
 Exit: Click Exit to close the application (includes a confirmation popup).
 
-⚠️ Compatibility Note
+## ⚠️ Compatibility Note
 Retail vs. OEM: This tool works best for Retail licenses and upgrades stored in the software registry.
 
 BIOS Keys: If your laptop came with Windows pre-installed (OEM), the key might be stored in the motherboard's BIOS/UEFI, which requires a different method to extract.
 
 Digital Entitlements: Newer Windows 10/11 activations linked to a Microsoft Account may not return a usable key via this method.
 
-📄 License
+## 📄 License
 This tool is for educational and personal recovery purposes.
 
 

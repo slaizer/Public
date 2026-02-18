@@ -69,9 +69,12 @@ Right-click your terminal icon and select "Run as Administrator".
 
 Run the script:
 
-Bash```
+```bash
 python Pywindosapp.py
 ```
+
+
+
 Operation:
 
 To Change PC Name: Enter the new name in the input box next to the button and click Change PC Name. ⚠️ Your PC will restart immediately.

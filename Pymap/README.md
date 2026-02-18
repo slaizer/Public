@@ -66,3 +66,60 @@ sudo pacman -S nmap
 
 # macOS (Homebrew)
 brew install nmap
+
+
+
+
+
+
+. Clone the Repository
+
+Bash
+
+```
+git clone [https://github.com/yourusername/taha-nmap-wrapper.git](https://github.com/yourusername/taha-nmap-wrapper.git)
+cd taha-nmap-wrapper
+```
+
+---
+
+## 💻 How to Use
+
+Since Nmap requires raw socket access for advanced scans (like SYN or OS detection), **you must run this script with `sudo`**.
+
+1. **Run the script:**
+    
+    Bash
+    
+    ```
+    sudo python3 taha_nmap.py
+    ```
+    
+2. **Follow the Menu:**
+    
+    - Enter the **Target IP** or **Range** (e.g., `192.168.1.1` or `192.168.1.0/24`).
+        
+    - Select the Scan Type (1-9).
+        
+    - View the color-coded results directly in the terminal.
+        
+
+---
+
+## ⚠️ Legal Disclaimer
+
+> **Usage of this tool for attacking targets without prior mutual consent is illegal.** > It is the end user's responsibility to obey all applicable local, state, and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
+> 
+> **Use responsibly. Only scan networks you own or have permission to test.**
+
+---
+
+<div align="center"> <sub>Built with ❤️ by Taha</sub> </div>
+
+
+
+
+
+
+
+

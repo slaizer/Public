@@ -52,9 +52,12 @@ pip install PySimpleGUI
 How to Use
 Run the script:
 
-Bash
+```bash
 python windowslicense.py
 ```
+
+
+
 Retrieve Key: Click the "Retrieve License Key" button.
 
 View Result: The key will appear in the text box below.

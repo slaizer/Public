@@ -21,6 +21,17 @@
 
 ---
 
+### 🏆 Certifications
+
+<div align="center">
+  <br>
+  <img src="https://img.shields.io/badge/CEH%20v12-Certified%20Ethical%20Hacker-D9261C?style=for-the-badge" alt="CEH v12" />
+  <img src="https://img.shields.io/badge/CAPT-Hackviser-000000?style=for-the-badge" alt="CAPT" />
+  <img src="https://img.shields.io/badge/CWSE-Web%20Security%20Expert-0078D6?style=for-the-badge" alt="CWSE" />
+</div>
+
+---
+
 ### 🛠️ Languages & Tools
 
 <div align="center">

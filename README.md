@@ -34,27 +34,6 @@
 
 ---
 
-### 🚀 Featured Projects
-
-| 🏆 Project | 📝 Description | 🛠️ Tech Stack |
-| :--- | :--- | :--- |
-| **[Network Admin Tool](https://github.com/YOUR_GITHUB_USERNAME/repo-name)** | Automates MikroTik security hardening and local Windows IP/DNS management. | `Python` `Paramiko` |
-| **[Nmap Python Wrapper](https://github.com/YOUR_GITHUB_USERNAME/repo-name)** | An interactive CLI tool that simplifies complex network reconnaissance and port scanning. | `Python` `Nmap` |
-| **[Expiration Tracker](https://github.com/YOUR_GITHUB_USERNAME/repo-name)** | A desktop database GUI to track item validity, calculate dates, and export to Excel. | `Python` `PySimpleGUI` |
-| **[Windows System Manager](https://github.com/YOUR_GITHUB_USERNAME/repo-name)** | GUI utility to change PC names, flush DNS, and forcibly clear browser caches. | `Python` `Winreg` |
-
----
-
-### 📊 My GitHub Stats
-
-<div align="center">
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" height="175" alt="stats graph" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" height="175" alt="streak graph" />
-</div>
-
----
-
 ### 📫 Let's Connect!
 
 <div align="center">

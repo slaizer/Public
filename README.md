@@ -26,8 +26,13 @@
 <div align="center">
   <br>
   <img src="https://img.shields.io/badge/CEH%20v12-Certified%20Ethical%20Hacker-D9261C?style=for-the-badge" alt="CEH v12" />
+  
   <img src="https://img.shields.io/badge/CAPT-Hackviser-000000?style=for-the-badge" alt="CAPT" />
-  <img src="https://img.shields.io/badge/CWSE-Web%20Security%20Expert-0078D6?style=for-the-badge" alt="CWSE" />
+  <img src="https://img.shields.io/badge/CWSE-Hackviser-000000?style=for-the-badge" alt="CWSE" />
+  
+  <a href="https://tryhackme.com/p/TahaEx?tab=certificates">
+    <img src="https://img.shields.io/badge/TryHackMe-Certifications-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe" />
+  </a>
 </div>
 
 ---
@@ -53,5 +58,8 @@
   </a>
   <a href="https://linkedin.com/in/YOUR_LINKEDIN_PROFILE">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://medium.com/@e3x3e">
+    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
   </a>
 </div>
